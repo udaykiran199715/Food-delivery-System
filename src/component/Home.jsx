@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
-let suggestions = ['Hungry', 'Cooking gone wrong', 'Unexpected guests', 'Movie marathon', 'Game night', 'Late nigh at office']
+let suggestions = ['Hungry', 'Cooking gone wrong', 'Unexpected guests', 'Movie marathon', 'Game night', 'Late night at office']
 
 class Home extends React.Component {
 
@@ -21,13 +22,13 @@ class Home extends React.Component {
     }
 
     displaySuggestion = (x) => {
-        let {index} = this.state
+        let { index } = this.state
         if (x === suggestions.length) {
             this.setState({ index: index = 0 })
         }
-    return(
-        suggestions[x]+'?'
-    )
+        return (
+            suggestions[x] + '?'
+        )
     }
 
     componentWillUnmount() {
@@ -36,12 +37,12 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <div className='  container-fluid'>
+                <div className=' container-fluid'>
                     <div className='row'>
-                        <div className='col-5 mt-5 offset-1'>
+                        <div className='col-4 mt-5 offset-1'>
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                                 <img src='logo.png' className='navbar-brand' width='200' alt='Logo' />
-                                <div class="collapse navbar-collapse ml-5 mt-5" id="navbarNavDropdown">
+                                <div class="collapse navbar-collapse ml-3 mt-5" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
                                         <li class="nav-item ">
                                             <Link class="nav-link border border-success mx-1  text-dark" href="#">Login</Link>
@@ -64,20 +65,49 @@ class Home extends React.Component {
                             </div>
 
                             <div className='mt-5'>
-                                <input className='px-4 py-3' style={{fontSize:'20px'}} placeholder='Enter your delivery location'/>
-                                <button style={{backgroundColor:'brown', color:'white', fontSize:'20px'}} className='py-3 px-3'>FIND FOOD</button>
+                                <input type='text' className='px-4 py-3' style={{ fontSize: '20px' }} placeholder='Enter your delivery location' />
+                                <button style={{ backgroundColor: 'brown', color: 'white', fontSize: '20px' }} className='py-3 px-3'>FIND FOOD</button>
                             </div>
 
                             <div className='mt-5'>
                                 <p className='text-muted'>POPULAR CITIES IN INDIA</p>
-                                <p></p>
+                                <h6>Ahmedabad <nbr className='text-secondary'>Bangalore</nbr> Chennai <nbr className='text-secondary'>Delhi</nbr> Gurgaon <nbr className='text-secondary'>Hyderabad</nbr> Kolkata <nbr className='text-secondary'>Mumbai</nbr>  Pune  <nbr className='text-secondary'>& more</nbr> </h6>
                             </div>
                         </div>
-                        <div className='col-6'>
-                            <img src='homeImage.jpg' width='100%' alt='homeImage' className='img-fluid' />
+                        <div className='col-7'>
+                            <img src='backgroundImage.jpg' width='100%' alt='homeImage' className='img-fluid' />
                         </div>
                     </div>
                 </div>
+
+                <div style={{ backgroundColor: 'grey', textAlign: 'center' }}>
+                    <div className='row'>
+                        <div className='col-2 offset-2'>
+                           <img height='300px' src='minimumOrder.png' />
+                           <div className='mt-4'>
+                               <h4 className='text-white'>No Minimum Order</h4>
+                               <p className='text-white'>order in for yourself or for the group, <br/>with no restrictions on order value</p>
+                           </div>
+                        </div>
+                        <div className='col-2 offset-1'>
+                        <img height='300px' src='orderTracking.png' />
+                        <div className='mt-4'>
+                               <h4 className='text-white'>Live Order Tracking</h4>
+                               <p className='text-white'>Know where your order is at all times, <br/>from the restaurant to your doorstep</p>
+                           </div>
+                        </div>
+                        <div className='col-2 offset-1'>
+                            <img height='300px' src='fastDelivery.png' />
+                            <div className='mt-4'>
+                               <h4 className='text-white'>Lighting Fast Delivery</h4>
+                               <p className='text-white'>Experience Packed Yummie's,  <br/> superfast delivery for food delivered fresh & on time</p>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            <Footer />
             </div >
         )
     }
