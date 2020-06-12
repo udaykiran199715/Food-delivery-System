@@ -8,7 +8,8 @@ export default function TopBar() {
                     <img src='logo.png' />
                 </div>
                 <div className='col-7 offset-2 mt-4'>
-                    <h1 className='display-4 font-weight-bolder' style={{fontFamily:'sans-serif'}} >Packed Yummies</h1>
+                    <h1 className='display-4 font-weight-bolder text-serif' style={{ color:'brown'}} >Packed Yummies</h1>
+                    {/* sansserif */}
                 </div>
 
             </div>

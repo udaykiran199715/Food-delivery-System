@@ -49,7 +49,7 @@ class Home extends React.Component {
 
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link border border-warning mx-1 text-dark" href="#">Sign up</Link>
+                                            <Link className="nav-link border border-warning mx-1 text-dark" to='/signup'>Sign up</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link><p className="nav-link border border-info mx-1  text-dark text-decoration-none" href="#">Partner With Us!</p></Link>
@@ -67,7 +67,7 @@ class Home extends React.Component {
 
                             <div className='mt-5'>
                                 <input type='text' className='px-4 py-3' style={{ fontSize: '20px' }} placeholder='Enter your delivery location' />
-                                <button style={{ backgroundColor: 'brown', color: 'white', fontSize: '20px' }} className='py-3 px-3'>FIND FOOD</button>
+                                <Link to='/restaurants'><button style={{ backgroundColor: 'brown', color: 'white', fontSize: '20px' }} className='py-3 px-3'>FIND FOOD</button></Link>
                             </div>
 
                             <div className='mt-5'>

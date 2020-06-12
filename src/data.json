@@ -1,11 +1,38 @@
 [
     {
         "id":1,
-        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuZIzrhnkb-O5qcrDC65WuuV6-KAwYlLKehdFelrXudXoMLyYNlEdSOe7DYA&usqp=CAc",
-        "productName":"OnePlus 7T (Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery)",
-        "price":"₹34,999.00",
-        "category":"Mobile",
-         "desc" : "It is a mobile"
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/nab18wv3vib43rxs4rzf",
+        "name": "Sri Ananda Bhavan Family Restaurant",
+        "types":"South Indian, North Indian",
+        "status":"Open",
+        "cost": "₹ 200",
+        "star" : "3.5",
+        "address":"Opp RTC Bus Stand, Janardhan Nagar",
+        "ratings" :"50+",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         }
+                      ],
+            "familyPacks" :[
+                             
+                        ],
+            "starters" :[
+
+                       ],
+            "breads" :[
+
+                      ],
+            "desserts":[
+
+                       ]
+        }
     },
     {
         "id":2,
