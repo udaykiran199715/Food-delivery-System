@@ -40,18 +40,19 @@ class Home extends React.Component {
                 <div className=' container-fluid'>
                     <div className='row'>
                         <div className='col-4 mt-5 offset-1'>
-                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                                 <img src='logo.png' className='navbar-brand' width='200' alt='Logo' />
-                                <div class="collapse navbar-collapse ml-3 mt-5" id="navbarNavDropdown">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item ">
-                                            <Link class="nav-link border border-success mx-1  text-dark" href="#">Login</Link>
+                                <div className="collapse navbar-collapse ml-3 mt-5" id="navbarNavDropdown">
+                                    <ul className="navbar-nav">
+                                        <li className="nav-item ">
+                                            <Link className="nav-link border border-success mx-1  text-dark" to='/login'>Login</Link>
+
                                         </li>
-                                        <li class="nav-item">
-                                            <Link class="nav-link border border-warning mx-1 text-dark" href="#">Sign up</Link>
+                                        <li className="nav-item">
+                                            <Link className="nav-link border border-warning mx-1 text-dark" href="#">Sign up</Link>
                                         </li>
-                                        <li class="nav-item">
-                                            <Link><p class="nav-link border border-info mx-1  text-dark text-decoration-none" href="#">Partner With Us!</p></Link>
+                                        <li className="nav-item">
+                                            <Link><p className="nav-link border border-info mx-1  text-dark text-decoration-none" href="#">Partner With Us!</p></Link>
                                         </li>
 
                                     </ul>
@@ -83,21 +84,21 @@ class Home extends React.Component {
                 <div style={{ backgroundColor: 'grey', textAlign: 'center' }}>
                     <div className='row'>
                         <div className='col-2 offset-2'>
-                           <img height='300px' src='minimumOrder.png' />
+                           <img height='300px' src='minimumOrder.png' alt='No minimum Order' />
                            <div className='mt-4'>
                                <h4 className='text-white'>No Minimum Order</h4>
                                <p className='text-white'>order in for yourself or for the group, <br/>with no restrictions on order value</p>
                            </div>
                         </div>
                         <div className='col-2 offset-1'>
-                        <img height='300px' src='orderTracking.png' />
+                        <img height='300px' src='orderTracking.png' alt='order Tracking' />
                         <div className='mt-4'>
                                <h4 className='text-white'>Live Order Tracking</h4>
                                <p className='text-white'>Know where your order is at all times, <br/>from the restaurant to your doorstep</p>
                            </div>
                         </div>
                         <div className='col-2 offset-1'>
-                            <img height='300px' src='fastDelivery.png' />
+                            <img height='300px' src='fastDelivery.png' alt='fast Delivery' />
                             <div className='mt-4'>
                                <h4 className='text-white'>Lighting Fast Delivery</h4>
                                <p className='text-white'>Experience Packed Yummie's,  <br/> superfast delivery for food delivered fresh & on time</p>

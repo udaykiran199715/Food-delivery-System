@@ -30,12 +30,28 @@ export default function Footer() {
             </div>
             <div className='col-2'>
                  <div className='mb-3'>
-                     <img src='appStore.png' width='200px' className='border-rounded'/>
+                     <img src='appStore.png' width='200px' className='border-rounded' alt='app store'/>
                  </div>
                  <div className='mb-3'>
-                     <img src='playStore.png'  width='200px' className='border-rounded'/>
+                     <img src='playStore.png'  width='200px' className='border-rounded' alt='play store'/>
                  </div>
             </div>
+        </div>
+        <hr className='container' style={{border:'1px solid grey'}} />
+
+        <div className='row text-white  '>
+            <div className='col-2 offset-2'>
+                  <img src = 'logo.png' height='100px' alt='logo' />
+            </div>
+            <div className='col-2 offset-1 mt-5' style={{fontSize:'20px'}}>
+            © 2020 Packed Yummies
+            </div>
+            <div className='col-2 offset-2 mt-5' style={{fontSize:'30px'}}>
+            <i class="fab fa-facebook-f "></i>
+            <i class="fab fa-instagram mx-3"></i>
+            <i class="fab fa-twitter"></i>
+            </div>
+
         </div>
     </div>
     )
