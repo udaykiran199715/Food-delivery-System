@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuZIzrhnkb-O5qcrDC65WuuV6-KAwYlLKehdFelrXudXoMLyYNlEdSOe7DYA&usqp=CAc",
+        "productName":"OnePlus 7T (Glacier Blue, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery)",
+        "price":"₹34,999.00",
+        "category":"Mobile",
+         "desc" : "It is a mobile"
+    },
+    {
+        "id":2,
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpq78n41kKL-TfRVYl5BjHAV757n1BHwUXADDeIWUo9BByWq2VhB2Sw_BaqWZ3YaXXC8chLGc&usqp=CAc",
+        "productName":"Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)",
+        "price":"₹12,699.00",
+        "category":"Mobile",
+        "desc" : "It is a mobile"
+    }
+]
