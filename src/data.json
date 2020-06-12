@@ -9,6 +9,7 @@
         "star" : "3.5",
         "address":"Opp RTC Bus Stand, Janardhan Nagar",
         "ratings" :"50+",
+        "city":"Bangalore",
         "items": {
             "biryani":[
                          {
@@ -18,28 +19,1616 @@
                          {
                              "itemName":"Special Chicken Biryani",
                              "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
                          }
                       ],
             "familyPacks" :[
-                             
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
                         ],
             "starters" :[
-
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
                        ],
             "breads" :[
-
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
                       ],
             "desserts":[
-
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
                        ]
         }
     },
     {
         "id":2,
-        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpq78n41kKL-TfRVYl5BjHAV757n1BHwUXADDeIWUo9BByWq2VhB2Sw_BaqWZ3YaXXC8chLGc&usqp=CAc",
-        "productName":"Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)",
-        "price":"₹12,699.00",
-        "category":"Mobile",
-        "desc" : "It is a mobile"
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/vslvkkwgt82r4hcazebu",
+        "name": "Kerala Food Club",
+        "types":"Kerala, Biryani, Seafood, South Indian",
+        "status":"Open",
+        "cost": "₹ 250",
+        "star" : "4.1",
+        "address":"Nanjappa Layout",
+        "ratings" :"500+",
+        "city":"Bangalore",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":3,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/o7pzflkoybfg5yydfb84",
+        "name": "Varma Grand Family Restaurant",
+        "types":"Andhra, Arabian, Beverages, Biryani, North Indian",
+        "status":"Open",
+        "cost": "₹ 300",
+        "star" : "4.4",
+        "address":"Gandhi Road",
+        "ratings" :"100+",
+        "city":"Bangalore",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mnzyub3njhh1bexqn638",
+        "name": "Ismail biryani",
+        "types":"South Indian, North Indian, Chinese",
+        "status":"Open",
+        "cost": "₹ 180",
+        "star" : "3.9",
+        "address":"Paris Street",
+        "ratings" :"100+",
+        "city":"Chennai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":5,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mnzyub3njhh1bexqn638",
+        "name": "Biryani Zone",
+        "types":"South Indian, North Indian, Chinese",
+        "status":"Open",
+        "cost": "₹ 200",
+        "star" : "3.8",
+        "address":"Velachery",
+        "ratings" :"100+",
+        "city":"Chennai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":6,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/rjpfkjt1jj5gwnuyzer5",
+        "name": "MSR Family Garden Restaurant",
+        "types":"South Indian, North Indian",
+        "status":"Open",
+        "cost": "₹ 250",
+        "star" : "3.8",
+        "address":"Richie Street",
+        "ratings" :"200+",
+        "city":"Chennai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":7,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/hwcmh4bbuxpwgfp0kuqo",
+        "name": "M Vadapav",
+        "types":"Juices, North Indian, South Indian",
+        "status":"Open",
+        "cost": "₹ 180",
+        "star" : "2.0",
+        "address":"Nehru nagar",
+        "ratings" :"50+",
+        "city":"Hyderabad",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":8,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uhnxuvgl8dtc0i8h3sol",
+        "name": "d-fast foods",
+        "types":"Juices, North Indian, South Indian, Chinese",
+        "status":"Open",
+        "cost": "₹ 100",
+        "star" : "4.6",
+        "address":"Bell road",
+        "ratings" :"1050+",
+        "city":"Hyderabad",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":9,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mkmtrf4nejqegfasayft",
+        "name": "Zeebu Multicuisine Restaurant",
+        "types":"Afghani, Andhra, Biryani",
+        "status":"Open",
+        "cost": "₹ 300",
+        "star" : "3.3",
+        "address":"begumpet",
+        "ratings" :"350+",
+        "city":"Hyderabad",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":10,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/nyss4hmgc1uuhrtc71w1",
+        "name": "Saregama restaurant",
+        "types":"Andhra, Biryani",
+        "status":"Open",
+        "cost": "₹ 300",
+        "star" : "3.7",
+        "address":"Virat nagar",
+        "ratings" :"350+",
+        "city":"Mumbai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":11,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ifkifriz425sacwdfvfn",
+        "name": "South Indian, North Indian",
+        "types":"Andhra, Biryani",
+        "status":"Open",
+        "cost": "₹ 300",
+        "star" : "4.7",
+        "address":"Beside south Indian Mall",
+        "ratings" :"1250+",
+        "city":"Mumbai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
+    },
+    {
+        "id":12,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/t5xogv3ljywndua2bcmp",
+        "name": "North Indian, South Indian, Chinese, Biryani",
+        "types":"Andhra, Biryani",
+        "status":"Open",
+        "cost": "₹ 250",
+        "star" : "4.7",
+        "address":"guntur road highway",
+        "ratings" :"550+",
+        "city":"Mumbai",
+        "items": {
+            "biryani":[
+                         {
+                             "itemName":"Chicken Dum Biryani",
+                            "itemPrice" : 255
+                         },
+                         {
+                             "itemName":"Special Chicken Biryani",
+                             "itemPrice": 240
+                         },
+                         {
+                            "itemName":"Mutton Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Prawns Biryani",
+                            "itemPrice": 300
+                         },
+                         {
+                            "itemName":"Veg Biryani",
+                            "itemPrice": 180
+                         },
+                         {
+                            "itemName":"Paneer Biryani",
+                            "itemPrice": 200
+                         }
+                      ],
+            "familyPacks" :[
+                             {
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699
+                             },
+                             {
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780
+                             },
+                             {
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850
+                             },
+                             {
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900
+                             },
+                             {
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200
+                             }
+                        ],
+            "starters" :[
+                             {
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140
+                            },
+                            {
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180
+                            },
+                            {
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155
+                            },
+                            {
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200
+                            },
+                            {
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260
+                            },
+                            {
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190
+                            }
+                       ],
+            "breads" :[
+                            {
+                                "itemName":"Pulka",
+                                "itemPrice": 35
+                            },
+                            {
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50
+                            },
+                            {
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45
+                            },
+                            {
+                                "itemName":"Chapathi",
+                                "itemPrice": 30
+                            }
+                      ],
+            "desserts":[
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100
+                            },
+                            {
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120
+                            },
+                            {
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78
+                            },
+                            {
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60
+                            },
+                            {
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30
+                            },
+                            {
+                                "itemName":"Lassi",
+                                "itemPrice": 40
+                            }
+                       ]
+        }
     }
 ]

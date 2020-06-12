@@ -3,6 +3,8 @@ import React from 'react'
 export default function Footer() {
     return(
         <div className='' style={{backgroundColor:'black'}}>
+            <br/>
+            <br/>
         <div className='row ' >
             <div className='col-2 offset-2'>
                 <p className='mb-3 text-secondary font-weight-bold'>COMPANY</p>

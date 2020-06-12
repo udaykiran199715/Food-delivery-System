@@ -1,33 +1,38 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
-    return(
-        <div className='container'>
+  let cities = ['Bangalore', 'Chennai', 'Hyderabad', 'Mumbai']
+  return (
 
+    <div className='container-fluid mt-3 shadow'>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<img src="logo.png" className="navbar-brand" alt='Packed Yummies' />
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-  {/* Navabar */}
+      <div className='d-flex flex-row'>
+        <div style={{ marginLeft: "200px" }} >
+          <img src="logo.png" className="navbar-brand" alt='Packed Yummies' />
         </div>
-    )
+
+        <div style={{ marginTop: "70px", fontSize: "25px" }}>
+          <select className='px-4 py-2 bg-white'>
+            <option>select city</option>
+            {cities.map(item => (
+              <option>{item}</option>
+            ))}
+          </select>
+        </div>
+        <div className='' style={{ marginTop: "70px", fontSize: "25px", marginLeft: "250px" }}>
+          <div className='d-flex flex-row'>
+            <div ><Link><i class="fas fa-search mx-4" style={{ color: 'brown' }}><span className='ml-3'>Search</span></i></Link> </div>
+            <div ><Link><i class="fas fa-percentage mx-4" style={{ color: 'brown' }}><span className='ml-3'>Offers</span></i></Link> </div>
+            <div ><Link><i class="fas fa-hands-helping mx-4" style={{ color: 'brown' }}><span className='ml-3'>Help</span></i></Link> </div>
+            <div ><Link><i class="fas fa-id-badge mx-4" style={{ color: 'brown' }}><span className='ml-3'>Sign in</span></i></Link> </div>
+            <div ><Link><i class="fas fa-shopping-cart mx-4" style={{ color: 'brown' }}><span className='ml-3'>Cart</span></i></Link> </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  )
 }
