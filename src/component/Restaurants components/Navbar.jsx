@@ -1,8 +1,36 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {connect} from 'react-redux'
+import {selectCity} from '../../Redux/Action'
 
 
-export default function Navbar() {
+
+class  Navbar extends React.Component{
+constructor(props)  {
+  super(props)
+
+  this.state = {
+    city:''
+  }
+}
+
+  handleChange = (e) => {
+    this.setState({
+      city:e.target.value
+    })
+
+    this.props.selectCity(e.target.value)
+  }
+
+
+componentDidMount() {
+    this.setState({
+      city: this.props.city
+    })
+}
+
+
+  render() {
   let cities = ['Bangalore', 'Chennai', 'Hyderabad', 'Mumbai']
   return (
 
@@ -14,10 +42,12 @@ export default function Navbar() {
         </div>
 
         <div style={{ marginTop: "70px", fontSize: "25px" }}>
-          <select className='px-4 py-2 bg-white'>
-            <option>select city</option>
+          <select className='px-4 py-2 bg-white' value={this.state.city}
+          //onChange={(e) => {selectCity(e.target.value)}}
+          onChange={(e) => this.handleChange(e) } >
+            <option value='All'>All</option>
             {cities.map(item => (
-              <option>{item}</option>
+              <option value={item}>{item}</option>
             ))}
           </select>
         </div>
@@ -36,3 +66,15 @@ export default function Navbar() {
     </div>
   )
 }
+}
+
+const mapStateToProps = state => ({
+    city:state.city
+})
+
+const mapDispatchToProps = dispatch => ({
+   selectCity  : (payload) => dispatch(selectCity(payload))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar)
+

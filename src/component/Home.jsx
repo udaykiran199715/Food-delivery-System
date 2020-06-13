@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
+import {selectCity} from '../Redux/Action'
+import {connect} from 'react-redux'
 
 let suggestions = ['Hungry', 'Cooking gone wrong', 'Unexpected guests', 'Movie marathon', 'Game night', 'Late night at office']
 
@@ -9,7 +11,8 @@ class Home extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            index: 0
+            index: 0,
+            cityName:''
         }
     }
 
@@ -35,6 +38,7 @@ class Home extends React.Component {
         clearInterval(this.handleSuggestions)
     }
     render() {
+        let {selectCity} = this.props
         return (
             <div>
                 <div className=' container-fluid'>
@@ -66,8 +70,8 @@ class Home extends React.Component {
                             </div>
 
                             <div className='mt-5'>
-                                <input type='text' className='px-4 py-3' style={{ fontSize: '20px' }} placeholder='Enter your delivery location' />
-                                <Link to='/restaurants'><button style={{ backgroundColor: 'brown', color: 'white', fontSize: '20px' }} className='py-3 px-3'>FIND FOOD</button></Link>
+                                <input type='text' className='px-4 py-3' style={{ fontSize: '20px' }} placeholder='Enter your delivery location' onChange={(e) => {this.setState({cityName:e.target.value})}} />
+                                <Link to='/restaurants'><button style={{ backgroundColor: 'brown', color: 'white', fontSize: '20px' }} className='py-3 px-3' onClick={() => selectCity(this.state.cityName)}>FIND FOOD</button></Link>
                             </div>
 
                             <div className='mt-5'>
@@ -84,21 +88,21 @@ class Home extends React.Component {
                 <div style={{ backgroundColor: 'grey', textAlign: 'center' }}>
                     <div className='row'>
                         <div className='col-2 offset-2'>
-                           <img height='300px' src='minimumOrder.png' alt='No minimum Order' />
+                           <img height='300px' width='300px' src='minimumOrder.png' alt='No minimum Order' />
                            <div className='mt-4'>
                                <h4 className='text-white'>No Minimum Order</h4>
                                <p className='text-white'>order in for yourself or for the group, <br/>with no restrictions on order value</p>
                            </div>
                         </div>
                         <div className='col-2 offset-1'>
-                        <img height='300px' src='orderTracking.png' alt='order Tracking' />
+                        <img height='300px' width='300px' src='orderTracking.png' alt='order Tracking' />
                         <div className='mt-4'>
                                <h4 className='text-white'>Live Order Tracking</h4>
                                <p className='text-white'>Know where your order is at all times, <br/>from the restaurant to your doorstep</p>
                            </div>
                         </div>
                         <div className='col-2 offset-1'>
-                            <img height='300px' src='fastDelivery.png' alt='fast Delivery' />
+                            <img height='300px' width='300px' src='fastDelivery.png' alt='fast Delivery' />
                             <div className='mt-4'>
                                <h4 className='text-white'>Lighting Fast Delivery</h4>
                                <p className='text-white'>Experience Packed Yummie's,  <br/> superfast delivery for food delivered fresh & on time</p>
@@ -114,4 +118,9 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+
+const mapDispatchToProps = dispatch => ({
+    selectCity  : (payload) => dispatch(selectCity(payload))
+ })
+
+ export default connect(null, mapDispatchToProps)(Home)

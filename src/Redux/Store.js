@@ -4,7 +4,8 @@ import reducer from './Reducer'
 import data from '../data.json'
 
 const initState = {
-    productArr : [...data ]
+    productArr : [...data ],
+    city:'All'
 
 
 

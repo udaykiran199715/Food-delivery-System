@@ -1,7 +1,7 @@
-import {ADD_PRODUCT} from './ActionTypes'
+import {SELECT_CITY} from './ActionTypes'
 
-export const addProduct = payload => ({
-    type:ADD_PRODUCT,
+export const selectCity = payload => ({
+    type: SELECT_CITY,
     payload
 
 })

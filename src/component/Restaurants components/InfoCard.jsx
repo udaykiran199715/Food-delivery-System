@@ -5,12 +5,12 @@ export default function InfoCard(props) {
     let { data } = props
     return (
 
-        <div className='col-3 my-5 '  >
+        <div className='col-4 my-5 '  >
             <Link>
                 <div class="card mb-3 text-decoration-none">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src={data.image} height="100px" class="card-img " alt="image" />
+                            <img src={data.image} height="150px" class="card-img " alt="image" />
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
