@@ -32,10 +32,10 @@ export default function Footer() {
             </div>
             <div className='col-2'>
                  <div className='mb-3'>
-                     <img src='appStore.png' width='200px' className='border-rounded' alt='app store'/>
+                     <img src='../appStore.png' width='200px' className='border-rounded' alt='app store'/>
                  </div>
                  <div className='mb-3'>
-                     <img src='playStore.png'  width='200px' className='border-rounded' alt='play store'/>
+                     <img src='../playStore.png'  width='200px' className='border-rounded' alt='play store'/>
                  </div>
             </div>
         </div>
@@ -43,7 +43,7 @@ export default function Footer() {
 
         <div className='row text-white  '>
             <div className='col-2 offset-2'>
-                  <img src = 'logo.png' height='100px' alt='logo' />
+                  <img src = '../logo.png' height='100px' alt='logo' />
             </div>
             <div className='col-2 offset-1 mt-5' style={{fontSize:'20px'}}>
             © 2020 Packed Yummies

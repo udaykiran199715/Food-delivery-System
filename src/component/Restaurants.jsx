@@ -3,9 +3,11 @@ import {connect} from 'react-redux'
 import Navbar from './Restaurants components/Navbar'
 import InfoCard from './Restaurants components/InfoCard'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
  function Restaurants(props) {
-     let {productArr,city} = props
+     let {productArr,city, match } = props
+    //  console.log(match.path)
 
     return (
         <div className='container-fluid'>
@@ -20,7 +22,7 @@ import Footer from './Footer'
                          return item
                      }
 
-                 }).map(item => <InfoCard data={item} />)}
+                 }).map(item =><InfoCard data={item} path={match.path} /> )}
                  </div>
              </div>
              <Footer />

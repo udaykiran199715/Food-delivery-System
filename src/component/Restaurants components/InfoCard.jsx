@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function InfoCard(props) {
-    let { data } = props
+    let { data,path} = props
+
     return (
 
-        <div className='col-4 my-5 '  >
-            <Link>
+        <div className='col-4 my-5 shadow'  >
+            <Link to={`${path}/${data.name}`}>
                 <div class="card mb-3 text-decoration-none">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -20,7 +21,7 @@ export default function InfoCard(props) {
                         </div>
                     </div>
                 </div>
-            </Link>
+                </Link>
         </div>
 
     )

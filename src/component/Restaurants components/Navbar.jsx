@@ -38,7 +38,7 @@ componentDidMount() {
 
       <div className='d-flex flex-row'>
         <div style={{ marginLeft: "200px" }} >
-          <img src="logo.png" className="navbar-brand" alt='Packed Yummies' />
+          <img src="../logo.png" className="navbar-brand" alt='Packed Yummies' />
         </div>
 
         <div style={{ marginTop: "70px", fontSize: "25px" }}>
