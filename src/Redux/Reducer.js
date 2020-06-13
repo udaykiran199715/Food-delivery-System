@@ -1,4 +1,4 @@
-import {SELECT_CITY} from './ActionTypes'
+import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART} from './ActionTypes'
 
 const reducer = (state, {type, payload}) => {
 
@@ -21,8 +21,48 @@ const reducer = (state, {type, payload}) => {
                 city: payload
 
             }
-        
        }
+
+       case LOGIN : {
+        console.log(payload)
+           return {
+               ...state,
+               usersArr: state.usersArr.filter(item => {
+                   if((item.username == payload.username || item.phone== payload.phone) && item.password == payload.password) {
+                    //    return {...state,userName:item.username, isAuth:true }
+                    return item
+                   }
+               }),
+
+
+
+           isAuth: state.usersArr.filter(item => {
+                if((item.username === payload.username || item.phone=== payload.phone) && item.password === payload.password) {
+                    return true
+                }
+            })
+            // .map(item => state.userName = item.username)
+            // usersArr: state.usersArr.filter(item => {item.username===payload.username || item.phone === payload.phone && item.password === payload.password} ? {...state, userName:item.username, isAuth:true}:item)
+
+           }
+       }
+
+       case SIGNUP : {
+           console.log(payload)
+           return {
+               ...state,
+               usersArr:[...state.usersArr,payload]
+           }
+       }
+
+       case ADD_TO_CART : {
+           return {
+               ...state,
+               cartArr:[...state.cartArr,payload]
+           }
+       }
+
+
 
 
        default:

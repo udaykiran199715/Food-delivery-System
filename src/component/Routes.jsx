@@ -5,6 +5,7 @@ import Login from './Login'
 import Signup from './Signup'
 import Restaurants from './Restaurants'
 import  RestaurantInfo from './Restaurants components/RestaurantInfo'
+import Cart from './Cart'
 
 
 export default function Routes() {
@@ -12,10 +13,11 @@ export default function Routes() {
         <div>
             <Switch>
             <Route path='/' exact render={() => <Home />} />
-            <Route path='/login' exact render={() => <Login />} />
-            <Route path='/signup' exact render={() => <Signup/>} />
+            <Route path='/login' exact render={(props) => <Login {...props}/>} />
+            <Route path='/signup' exact render={(props) => <Signup {...props} />} />
             <Route path='/restaurants' exact render={(props) => <Restaurants {...props} />} />
             <Route path='/restaurants/:name' exact render={(props) => <RestaurantInfo {...props} /> } />
+            <Route path='/cart' exact render={(props) => <Cart {...props} /> } />
             </Switch>
         </div>
     )

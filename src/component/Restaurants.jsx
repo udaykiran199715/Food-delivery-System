@@ -4,6 +4,8 @@ import Navbar from './Restaurants components/Navbar'
 import InfoCard from './Restaurants components/InfoCard'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import SlidePages from './Restaurants components/SlidePages'
+
 
  function Restaurants(props) {
      let {productArr,city, match } = props
@@ -12,6 +14,7 @@ import { Link } from 'react-router-dom'
     return (
         <div className='container-fluid'>
              <Navbar />
+<SlidePages />
              <div className='container-fluid my-5' style={{backgroundColor:'lightcyan'}}>
                  <div className='row'>
                  {productArr?.filter(item => {
