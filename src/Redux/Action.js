@@ -1,4 +1,4 @@
-import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART} from './ActionTypes'
+import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART,ADD_QUANTITY, SUB_QUANTITY} from './ActionTypes'
 
 export const selectCity = payload => ({
     type: SELECT_CITY,
@@ -20,6 +20,18 @@ export const addtoCart = payload => ({
     payload
 
 })
+
+export const addQuantity = (payload) => ({
+    type: ADD_QUANTITY,
+    payload
+})
+
+export const subQuantity = (payload) => ({
+    type:SUB_QUANTITY,
+    payload
+})
+
+
 
 
 

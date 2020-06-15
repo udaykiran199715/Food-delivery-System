@@ -7,22 +7,57 @@ import BillCard from './BillCard'
 
 class Cart extends React.Component {
     render() {
-        let { isAuth,cartArr } = this.props
+        let { isAuth,cartArr , quantity} = this.props
         if (!isAuth) {
             return (
                 <Redirect to='/login' />
             )
         }
 
-        let total = cartArr?.reduce((acc,cum) => Number(acc.itemPrice)+Number(cum.itemPrice))
+        console.log(cartArr, quantity)
+
+
+
+        // let total = cartArr?.reduce((acc,cum) => Number(acc.itemPrice)+Number(cum.itemPrice))
+        if(cartArr.length != 0) {
+            var total = 0
+
+            for(let i=0;i<cartArr.length;i++) {
+               // console.log(cartArr[i].itemPrice)
+                let price = cartArr[i].itemPrice.split(' ')
+                // let x = price[2].split('')
+                // let qty = Number(x[1])
+                //console.log(price)
+
+
+               total = total + Number(price[1] )
+            //    console.log(cartArr[i][1].itemPrice)
+            }
+           // console.log(total)
+        }else{
+            return (
+                <>
+                <Navbar />
+                <div className='text-center my-5' style={{fontSize:'25px', color:'red'}}>
+                        No items added in the cart
+                </div>
+                <Footer />
+                </>
+            )
+        }
 
         return (
             <div>
                 <Navbar />
-                <div style={{textAlign  :'center',margin:"100px "}}> <>{cartArr?.map(item =>  <BillCard data={item} />)}
-                <p style={{fontSize:'20px'}}>Total Bill: {total}</p>
-                <button className='px-5 py-3 bg-success'>Proceed to pay </button>
-                </>
+                <div style={{textAlign  :'center',marginTop:"100px "}}>
+               {cartArr?.map(item =>  <BillCard data={item} />)}
+                 </div>
+
+                 <div className='row text-center mb-4'>
+                     <div className='col-5 offset-2'>
+                     <p style={{fontSize:'30px', color:'brown'}}>Total Bill:  <nbr style={{marginLeft:'300px'}}>₹ {total * quantity}</nbr></p>
+                <button className=' py-2 bg-success ' style={{color:'white', backgroundColor:'brown', fontSize:'20px', margin:'0px'}}>Proceed to pay </button>
+                     </div>
                  </div>
                 <Footer />
             </div>
@@ -39,7 +74,8 @@ class Cart extends React.Component {
 
 const mapStateToProps = state => ({
     cartArr: state.cartArr,
-    isAuth: state.isAuth
+    isAuth: state.isAuth,
+    quantity: state.quantity
 })
 
 export default connect(mapStateToProps, null)(Cart)

@@ -10,6 +10,7 @@ import SlidePages from './Restaurants components/SlidePages'
  function Restaurants(props) {
      let {productArr,city, match } = props
     //  console.log(match.path)
+    
 
     return (
         <div className='container-fluid'>

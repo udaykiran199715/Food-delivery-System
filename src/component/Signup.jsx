@@ -4,6 +4,7 @@ import { TextField } from '@material-ui/core'
 import { signup } from '../Redux/Action'
 import {connect} from 'react-redux'
 import { Link, Redirect } from 'react-router-dom'
+import Footer from './Footer'
 
 let status = false
 class Signup extends React.Component {
@@ -45,7 +46,7 @@ console.log(status)
         return (
             <div >
                 <TopBar />
-                <div className='container text-center'>
+                <div className='container text-center mb-5'>
                     <h1 className='display-h4  text-underline'>Signup <i class="fas fa-hamburger text-warning ml-5"></i></h1>
 
                     <div>
@@ -61,6 +62,7 @@ console.log(status)
                             <button  class="btn text-white  px-5 py-2" style={{backgroundColor:'brown'}} onClick={() => this.handleSignup()} >Signup</button>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

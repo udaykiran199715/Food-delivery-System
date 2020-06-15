@@ -1,4 +1,4 @@
-import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART} from './ActionTypes'
+import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART,  ADD_QUANTITY, SUB_QUANTITY} from './ActionTypes'
 
 const reducer = (state, {type, payload}) => {
 
@@ -61,6 +61,22 @@ const reducer = (state, {type, payload}) => {
                cartArr:[...state.cartArr,payload]
            }
        }
+
+       case ADD_QUANTITY : {
+           return {
+               ...state,
+            //    quantity: state.quantity >= 1 && state.quantity + Number(payload)
+            quantity: state.quantity + 1
+           }
+       }
+
+       case SUB_QUANTITY : {
+        return {
+            ...state,
+            // quantity: state.quantity >= 1 && state.quantity - Number(payload)
+            quantity: state.quantity > 1 && state.quantit - 1
+        }
+    }
 
 
 

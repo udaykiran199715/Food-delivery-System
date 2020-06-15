@@ -18,7 +18,8 @@ const initState = {
 
                }],
     isAuth: false,
-    cartArr:[]
+    cartArr:[],
+    quantity:1
 
 }
 

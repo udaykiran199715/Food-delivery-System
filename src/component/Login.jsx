@@ -4,6 +4,7 @@ import {login} from '../Redux/Action'
 import { TextField } from '@material-ui/core'
 import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom'
+import Footer from './Footer'
 
 class Login extends React.Component {
     constructor(props) {
@@ -38,7 +39,7 @@ class Login extends React.Component {
         return (
             <div >
                 <TopBar />
-                <div className='container text-center'>
+                <div className='container text-center mb-5'>
                     <h1 className='display-h4  text-underline'>Login <i class="fas fa-hamburger text-warning ml-5"></i></h1>
 
                     <div>
@@ -55,6 +56,7 @@ class Login extends React.Component {
                             <button  class="btn text-white   px-5 py-2" style={{backgroundColor:'brown'}} onClick={() => login(this.state)} >Login</button>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
