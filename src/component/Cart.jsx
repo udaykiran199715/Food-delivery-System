@@ -17,23 +17,11 @@ class Cart extends React.Component {
         console.log(cartArr, quantity)
 
 
-
+// console.log(cartArr)
         // let total = cartArr?.reduce((acc,cum) => Number(acc.itemPrice)+Number(cum.itemPrice))
         if(cartArr.length != 0) {
             var total = 0
 
-            for(let i=0;i<cartArr.length;i++) {
-               // console.log(cartArr[i].itemPrice)
-                let price = cartArr[i].itemPrice.split(' ')
-                // let x = price[2].split('')
-                // let qty = Number(x[1])
-                //console.log(price)
-
-
-               total = total + Number(price[1] )
-            //    console.log(cartArr[i][1].itemPrice)
-            }
-           // console.log(total)
         }else{
             return (
                 <>

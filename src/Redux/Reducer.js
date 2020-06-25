@@ -1,6 +1,28 @@
 import {SELECT_CITY, LOGIN, SIGNUP, ADD_TO_CART,  ADD_QUANTITY, SUB_QUANTITY} from './ActionTypes'
 
-const reducer = (state, {type, payload}) => {
+import data from '../data.json'
+
+const initState = {
+    productArr : [...data ],
+    city:'All',
+    usersArr: [{
+                 username:'uday',
+                 phone:123456,
+                 password:123456
+
+               }, {
+                username:'kiran',
+                phone:543210,
+                password:543210
+
+               }],
+    isAuth: false,
+    cartArr:[],
+    qty:1
+
+}
+
+const reducer = (state = initState, {type, payload}) => {
 
    switch( type ) {
 
@@ -56,6 +78,9 @@ const reducer = (state, {type, payload}) => {
        }
 
        case ADD_TO_CART : {
+
+        //    let cart = [...state.cartArr]
+      //  console.log(state.cartArr)
            return {
                ...state,
                cartArr:[...state.cartArr,payload]
