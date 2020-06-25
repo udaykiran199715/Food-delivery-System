@@ -34,7 +34,7 @@ class BillCard extends React.Component {
     }
 
     render() {
-        let { data } = this.props
+        let { data , cartArr} = this.props
         return (
             <div className="row py-2" >
                 <div className='text-truncate col-3 offset-2' style={{ fontSize: '30px' }}>
@@ -52,11 +52,15 @@ class BillCard extends React.Component {
 
 }
 
+const mapStateToProps = state => ({
+    cartArr:state.cartArr
+})
+
 const mapDispatchToProps = dispatch => ({
     addQuantity  : (payload) => dispatch(addQuantity(payload)),
     subQuantity  : (payload) => dispatch(subQuantity(payload))
  })
 
 
-export default connect(null,mapDispatchToProps)(BillCard)
+export default connect(mapStateToProps,mapDispatchToProps)(BillCard)
 

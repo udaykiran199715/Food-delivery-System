@@ -15,7 +15,7 @@ import SlidePages from './Restaurants components/SlidePages'
     return (
         <div className='container-fluid'>
              <Navbar />
-<SlidePages />
+             <SlidePages />
              <div className='container-fluid my-5' style={{backgroundColor:'lightcyan'}}>
                  <div className='row'>
                  {productArr?.filter(item => {

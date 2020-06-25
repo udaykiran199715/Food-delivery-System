@@ -110,7 +110,10 @@ class RestaurantInfo extends React.Component {
                                             <p className='text-muted'>₹ {elem.itemPrice}</p>
                                         </div>
                                         <div className='col-2 offset-1'>
-                                            <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                        {elem.qty === 0 ?
+                                                <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                                : <button className='btn font-weight-bold' style={{ border: '1px solid green' }}><span className='mr-2 text-secondary' style={{fontSize:'20px'}}>-</span>{elem.qty}<span  className='ml-2 text-secondary' style={{fontSize:'20px'}}>+</span></button>
+                                            }
                                         </div>
                                     </div>
                                 </div>)}
@@ -126,7 +129,10 @@ class RestaurantInfo extends React.Component {
                                             <p className='text-muted'>₹ {elem.itemPrice}</p>
                                         </div>
                                         <div className='col-2 offset-1'>
-                                            <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                        {elem.qty === 0 ?
+                                                <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                                : <button className='btn font-weight-bold' style={{ border: '1px solid green' }}><span className='mr-2 text-secondary' style={{fontSize:'20px'}}>-</span>{elem.qty}<span  className='ml-2 text-secondary' style={{fontSize:'20px'}}>+</span></button>
+                                            }
                                         </div>
                                     </div>
                                 </div>)}
@@ -142,7 +148,10 @@ class RestaurantInfo extends React.Component {
                                             <p className='text-muted'>₹ {elem.itemPrice}</p>
                                         </div>
                                         <div className='col-2 offset-1'>
-                                            <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                        {elem.qty === 0 ?
+                                                <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                                : <button className='btn font-weight-bold' style={{ border: '1px solid green' }}><span className='mr-2 text-secondary' style={{fontSize:'20px'}}>-</span>{elem.qty}<span  className='ml-2 text-secondary' style={{fontSize:'20px'}}>+</span></button>
+                                            }
                                         </div>
                                     </div>
                                 </div>)}
@@ -158,7 +167,10 @@ class RestaurantInfo extends React.Component {
                                             <p className='text-muted'>₹ {elem.itemPrice}</p>
                                         </div>
                                         <div className='col-2 offset-1'>
-                                            <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                        {elem.qty === 0 ?
+                                                <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
+                                                : <button className='btn font-weight-bold' style={{ border: '1px solid green' }}><span className='mr-2 text-secondary' style={{fontSize:'20px'}}>-</span>{elem.qty}<span  className='ml-2 text-secondary' style={{fontSize:'20px'}}>+</span></button>
+                                            }
                                         </div>
                                     </div>
                                 </div>)}
@@ -176,7 +188,7 @@ class RestaurantInfo extends React.Component {
                                         <div className='col-2 offset-1'>
                                             {elem.qty === 0 ?
                                                 <button className='btn text-success ' onClick={() => this.handleAdd(elem.id)} style={{ border: '1px solid green' }}>ADD</button>
-                                                : <button className='btn' style={{ border: '1px solid green' }}><span className='mr-2'  style={{fontSize:'200px'}}>-</span>{elem.qty}<span className='ml-2'>+</span></button>
+                                                : <button className='btn font-weight-bold' style={{ border: '1px solid green' }}><span className='mr-2 text-secondary' style={{fontSize:'20px'}}>-</span>{elem.qty}<span  className='ml-2 text-secondary' style={{fontSize:'20px'}}>+</span></button>
                                             }
                                         </div>
                                     </div>
