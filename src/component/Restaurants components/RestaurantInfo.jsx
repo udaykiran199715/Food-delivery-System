@@ -17,22 +17,7 @@ class RestaurantInfo extends React.Component {
     }
 
 
-    // handleAdd = (id) => {
-    //    // console.log(id)
-    //     // let item = ''
-    //     // for (let i = 0; i < this.props.productArr.length; i++) {
-    //     //     for (let j = 0; j < this.props.productArr[i].items.length; j++) {
-    //     //         if (this.props.productArr[i].items[j].id == id) {
-    //     //             item = this.props.productArr[i].items[j]
-    //     //             this.props.productArr[i].items[j].qty = 1
 
-    //     //         }
-    //     //     }
-    //     // }
-    //   //  console.log(item)
-    //     this.props.addtoCart(id)
-
-    // }
 
     handleCheckOut = () => {
         this.setState({
