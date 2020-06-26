@@ -24,9 +24,6 @@ class RestaurantInfo extends React.Component {
             checkFlag:true
         })
        
-        return (
-            <Redirect to='/cart' />
-        )
     }
 
     render() {
@@ -38,9 +35,12 @@ class RestaurantInfo extends React.Component {
             return <div>Error 404 Not Found</div>
         }
 
-        // if(this.state.checkFlag) {
+        if(this.state.checkFlag) {
             
-        // }
+        return (
+            <Redirect to='/cart' />
+        )
+        }
 
         // if(!isAuth) {
         //     return (

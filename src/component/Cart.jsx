@@ -3,6 +3,7 @@ import Navbar from './Restaurants components/Navbar'
 import Footer from './Footer'
 import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom'
+import PriceCard from './PriceCard'
 import BillCard from './BillCard'
 
 class Cart extends React.Component {
@@ -26,27 +27,17 @@ class Cart extends React.Component {
             return (
                 <>
                 <Navbar />
-                <div className='text-center my-5' style={{fontSize:'25px', color:'red'}}>
+                <div className='text-center my-5' style={{fontSize:'25px', color:'red'}} >
                         No items added in the cart
                 </div>
                 <Footer />
                 </>
             )
         }
-
         return (
             <div>
                 <Navbar />
-                <div style={{textAlign  :'center',marginTop:"100px "}}>
-               {/* {cartArr?.map(elem =>  <PriceCard item={elem} />)} */}
-                 </div>
-
-                 <div className='row text-center mb-4'>
-                     <div className='col-5 offset-2'>
-                     <p style={{fontSize:'30px', color:'brown'}}>Total Bill:  <nbr style={{marginLeft:'300px'}}>₹ {total * quantity}</nbr></p>
-                <button className=' py-2 bg-success ' style={{color:'white', backgroundColor:'brown', fontSize:'20px', margin:'0px'}}>Proceed to pay </button>
-                     </div>
-                 </div>
+                <BillCard/>
                 <Footer />
             </div>
         )

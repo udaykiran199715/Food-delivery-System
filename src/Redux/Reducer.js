@@ -16,9 +16,13 @@ const initState = {
                 password:543210
 
                }],
-    isAuth: false,
+    isAuth: true,
     cartArr:[],
-    total:0
+    total:0,
+    rest:{
+        name:'',
+        image:''
+    }
 
 }
 
@@ -102,8 +106,9 @@ const reducer = (state = initState, {type, payload}) => {
       //  console.log(state.cartArr)
            return {
                ...state,
-               cartArr:[...state.cartArr,{...item, name,image}],
-               total:sum
+               cartArr:[...state.cartArr,item],
+               total:sum,
+               rest:{...state.rest,name:name,image:image}
            }
        }
 
