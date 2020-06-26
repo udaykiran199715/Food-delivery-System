@@ -38,7 +38,7 @@ class Cart extends React.Component {
             <div>
                 <Navbar />
                 <div style={{textAlign  :'center',marginTop:"100px "}}>
-               {cartArr?.map(item =>  <BillCard data={item} />)}
+               {/* {cartArr?.map(elem =>  <PriceCard item={elem} />)} */}
                  </div>
 
                  <div className='row text-center mb-4'>

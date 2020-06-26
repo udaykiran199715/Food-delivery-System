@@ -18,7 +18,7 @@ const initState = {
                }],
     isAuth: false,
     cartArr:[],
-    qty:1
+    total:0
 
 }
 
@@ -79,27 +79,76 @@ const reducer = (state = initState, {type, payload}) => {
 
        case ADD_TO_CART : {
 
+        let item = ''
+        let sum = 0
+        let name = ''
+        let image = ''
+        for (let i = 0; i < state.productArr.length; i++) {
+            for (let j = 0; j < state.productArr[i].items.length; j++) {
+                if (state.productArr[i].items[j].id == payload) {
+                    item = state.productArr[i].items[j]
+                    state.productArr[i].items[j].qty = 1
+                    name = state.productArr[i].name
+                    image = state.productArr[i].image
+                   
+                }
+
+                sum += state.productArr[i].items[j].qty* state.productArr[i].items[j].itemPrice
+            }
+        }
+        console.log(sum)
+
         //    let cart = [...state.cartArr]
       //  console.log(state.cartArr)
            return {
                ...state,
-               cartArr:[...state.cartArr,payload]
+               cartArr:[...state.cartArr,{...item, name,image}],
+               total:sum
            }
        }
 
        case ADD_QUANTITY : {
+           let sum = 0
+        //    console.log('dsafds')
+        for (let i = 0; i < state.productArr.length; i++) {
+            for (let j = 0; j < state.productArr[i].items.length; j++) {
+                if (state.productArr[i].items[j].id == payload) {
+                    state.productArr[i].items[j].qty +=1
+                    var x = state.productArr[i].items[j].qty
+                    
+                }
+                sum += state.productArr[i].items[j].qty* state.productArr[i].items[j].itemPrice
+            }
+        }
+
            return {
                ...state,
-            //    quantity: state.quantity >= 1 && state.quantity + Number(payload)
-            quantity: state.quantity + 1
+               total:sum,
+               cartArr: state.cartArr.map(item => item.id == payload ? {...item , qty:x} : item)
            }
        }
 
        case SUB_QUANTITY : {
+           let sum = 0
+        for (let i = 0; i < state.productArr.length; i++) {
+            for (let j = 0; j < state.productArr[i].items.length; j++) {
+                if (state.productArr[i].items[j].id == payload) {
+                    if(state.productArr[i].items[j].qty >= 1) {
+                        state.productArr[i].items[j].qty -=1
+                    }else {
+                        state.productArr[i].items[j].qty = 0
+                        // state.total += state.productArr[i].items[j].qty* state.productArr[i].items[j].itemPrice
+                    }
+                }
+                sum  += state.productArr[i].items[j].qty* state.productArr[i].items[j].itemPrice
+
+
+            }
+        }
         return {
             ...state,
-            // quantity: state.quantity >= 1 && state.quantity - Number(payload)
-            quantity: state.quantity > 1 && state.quantit - 1
+            total:sum,
+            cartArr: state.cartArr.map(item => item.id == payload ? {...item , qty:item.qty - 1} : item).filter(item => item.qty >= 1 && item)
         }
     }
 

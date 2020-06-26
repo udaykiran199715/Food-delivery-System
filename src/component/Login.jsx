@@ -28,7 +28,7 @@ class Login extends React.Component {
 
         if(isAuth) {
             return (
-                <Redirect push to='/restaurants' />
+                <Redirect to={history.go(-1)} />
             )
         }
 

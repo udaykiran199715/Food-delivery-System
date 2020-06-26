@@ -1,19 +1,34 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import {addQuantity, subQuantity} from '../Redux/Action'
 
-export default function PriceCard(props) {
-    let { name} = { props }
-    console.log(name)
+function PriceCard(props) {
+    let { item, addQuantity, subQuantity, total} = props
     return (
         <div className='container'>
-            <div className='row'>
-                <div className='col-6'>
-                    <h3 className='fontweight-bold'>{name}</h3>
-                    <p className='text-muted'>₹ {''}</p>
+            <div className='d-flex flex-row '>
+                <div className='pr-3' style={{flex:1}}>
+                    <p className='fontweight-bold'>{item.itemName}</p>
                 </div>
-                <div className='col-2 offset-1'>
-                    <button className='btn text-success'>ADD</button>
+                <div className='pr-3'>
+                <button className=' font-weight-bold text-success' style={{ border: '1px solid grey' }}><span className='mr-2 text-secondary' onClick={()=> subQuantity(item.id)}  >-</span>{item.qty}<span  className='ml-2 text-success'  onClick={()=> addQuantity(item.id)} >+</span></button>
                 </div>
+                <small className='pl-2'>
+                ₹{item.itemPrice}
+                </small>
             </div>
+          
+          
         </div>
     )
 }
+const mapStateToProps = state => ({
+    total:state.total
+})
+
+const mapDispatchToProps = dispatch => ({
+    addQuantity  : (payload) => dispatch(addQuantity(payload)),
+    subQuantity  : (payload) => dispatch(subQuantity(payload))
+ })
+
+export default connect(null,mapDispatchToProps)(PriceCard)
