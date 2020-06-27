@@ -16,7 +16,7 @@ const initState = {
                 password:543210
 
                }],
-    isAuth: true,
+    isAuth: false,
     cartArr:[],
     total:0,
     rest:{

@@ -3,7 +3,7 @@
         "id":1,
         "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/nab18wv3vib43rxs4rzf",
         "name": "Sri Ananda Bhavan Family Restaurant",
-        "types":"South Indian, North Indian",
+        "types":"South Indian, North Indian, Cuisine",
         "status":"Open",
         "cost": "₹ 200",
         "star" : "3.5",

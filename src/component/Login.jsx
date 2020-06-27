@@ -23,12 +23,16 @@ class Login extends React.Component {
     }
     render() {
         let {username, phone, password} = this.state
-        let {login,isAuth, history} = this.props
+        let {login,isAuth, history, cartArr} = this.props
         console.log(isAuth)
 
-        if(isAuth) {
+        if(isAuth && cartArr.length !=0) {
             return (
                 <Redirect to={history.go(-1)} />
+            )
+        }else if(isAuth && cartArr.length == 0) {
+            return (
+                <Redirect to='/restaurants' />
             )
         }
 
@@ -64,7 +68,8 @@ class Login extends React.Component {
 
 const mapStateToProps = state => ({
     isAuth: state.isAuth,
-    userArr:state.usersArr
+    userArr:state.usersArr,
+    cartArr:state.cartArr
 })
 
 const mapDispatchToProps = dispatch => ({

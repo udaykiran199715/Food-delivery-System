@@ -27,7 +27,7 @@ class Signup extends React.Component {
     handleSignup = () => {
          this.props.signup(this.state)
        this.setState({
-           state:true
+           status:true
        })
 
     }
