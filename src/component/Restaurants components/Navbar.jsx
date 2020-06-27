@@ -55,7 +55,7 @@ class Navbar extends React.Component {
           </div>
           <div className='' style={{ marginTop: "70px", fontSize: "25px", marginLeft: "250px" }}>
             <div className='d-flex flex-row'>
-              <div ><Link><i class="fas fa-search mx-4" style={{ color: 'brown' }}><span className='ml-3'>Search</span></i></Link> </div>
+              <div ><Link to='/search'><i class="fas fa-search mx-4" style={{ color: 'brown' }}><span className='ml-3'>Search</span></i></Link> </div>
               <div ><Link><i class="fas fa-percentage mx-4" style={{ color: 'brown' }}><span className='ml-3'>Offers</span></i></Link> </div>
               <div ><Link><i class="fas fa-hands-helping mx-4" style={{ color: 'brown' }}><span className='ml-3'>Help</span></i></Link> </div>
               <div ><Link to='/login'><i class="fas fa-id-badge mx-4" style={{ color: 'brown' }}><span className='ml-3'> {isAuth ? "Hello, " + usersArr[0].username : "Sign In"}</span></i></Link> </div>
