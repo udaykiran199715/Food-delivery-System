@@ -6,6 +6,20 @@
 <p><strong>“Packed Yummie’s"</strong> is a Food delivery application. Users can select restaurants based on location. It has a good user-friendly interface, people can navigate the application easily.</p>
  <img src="/src/resources/landingPage.png" />
 
+<p>
+ On the landing page, users can see few options like <strong>Login, Signup</strong> and also it consists of an option called to partner with us where restaurant management can provide their details in case if they want to tie up with Packed Yummie’s. If the customer provides location and clicks on the find food, all the restaurants available under that location will be shown to the customer.
+ 
+In the Main Page, the application is having the navigation bar where users can navigate to various options like offers, help, sign in, cart, and search. On this page, the application contains a location filter where the user can select the required location. Once it was selected all the available restaurants under that location will be displayed to the user. Now user can select the required restaurant based on his/her interests.</p>
+<img src="/src/resources/restaurantPage.png" />
+
+<p>
+ Once the user selected the restaurant, he/she can see various details like rating, the average cost for two people, address, types, and varieties of items available in the restaurant. After click on the add button user can add the items to the cart after clicking on the cart user will be redirected to the cart page. Here user can modify the quantity of the items or item itself. The total amount is calculated based on the quantity of the items selected. If the user does with the item selection can proceed with the payment.
+</p>
+<img src="/src/resources/cartPage.png" />
+
+### Dependencies used are:
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
