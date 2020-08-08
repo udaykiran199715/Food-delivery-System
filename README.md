@@ -18,7 +18,7 @@ In the Main Page, the application is having the navigation bar where users can n
 <img src="/src/resources/cartPage.png" />
 
 ### Dependencies used are:
-
+[react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom), [react-redux](https://react-redux.js.org/introduction/quick-start)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
