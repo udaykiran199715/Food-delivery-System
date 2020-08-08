@@ -1,3 +1,11 @@
+# Food Delivery System
+
+[Demo](https://food-delivery-system.vercel.app/)
+
+## Overview of the Project:
+<p><strong>“Packed Yummie’s"</strong> is a Food delivery application. Users can select restaurants based on location. It has a good user-friendly interface, people can navigate the application easily.</p>
+ <img src="resources/ladingPage.png" />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
